@@ -141,6 +141,7 @@ __我__
 - 遇到了些问题 有空问一问
 - cd 到桌面上 再输cd wsy 竟然说我没有
 - 直接输cd wsy也不可。。
+- 提交直接在Markdown下进行
 
 ## 第四天
 - git add . 有点哦，可以把所有修改内容都添加
@@ -165,3 +166,40 @@ __我__
 - git remote add第一次添加以后就不用再输入了
 - 后面呢，每次commit完之后就可以直接push了哈哈哈
 - 大仓库下可以不用小仓库了，一个就够了，系统要报错。。
+
+## 第五天
+### 学习html 前端   （今日分享超链接，自行体会）
+- [html教程 ] (https://www.runoob.com/html/html-tutorial.html)
+
+- [简介](https://www.runoob.com/html/html-intro.html)
+
+- [链接和图像](https://www.runoob.com/html/html-intro.html)
+
+- [文本格式化](https://www.runoob.com/html/html-formatting.html)
+
+- [列名单](https://www.runoob.com/html/html-lists.html)
+
+- [打表格](https://www.runoob.com/html/html-tables.html)
+
+- [最重要元素span和div](https://www.runoob.com/html/html-blocks.html)
+
+- [CSS教程](https://www.runoob.com/html/html-summary.html)
+
+- [Javascript教程](https://www.runoob.com/html/html-summary.html)
+
+- [learning later](https://cn.vuejs.org/v2/guide/)
+
+#### 几个注意事项
+- 注意符号用英文
+- 开始时要用英文状态下的叹号!回车出来内容
+- 以后用谷歌的浏览器
+- 只有在body中才会在浏览器显示
+- 标签h、p、a、table、 input、del等等
+- 浏览器会过滤空格
+- 图片路径要正确啊，要在同一个文件夹里才行
+- 看链接时记得看下标签啊
+- 所有的标签都可以用div表示
+- id 只能代表一个元素
+- input 不是inpot
+-
+-
