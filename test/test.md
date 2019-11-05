@@ -235,5 +235,26 @@ __我__
 - appendChild 添加子元素
 - 循环语句中(循环条件){循环体}
 - 一定要把b系列的例子敲一遍哦
--
--
+
+## 第好几天
+### JS learning
+- such as querySelector 是为了获得div的元素
+- innerHTML 要给获得的元素进行赋值
+- document是一个对象 代表你这个浏览器窗口可以显示的区域
+- book=document 是对对象进行赋值
+- document是一个通道，让book中的值通过，再由value获得并计算
+- div区块元素 span是行内元素
+- 区块就是一列一列俗称另起一行，然鹅，行内是一行一行俗称连起来
+- 块级元素有哪些
+- 行内元素有哪些
+- 用CSS中的display属性去更改区块行内的性质
+- n++是n+1的意思
+- 变量和常量
+### DOM树
+- 一个html就是一个DOM树，分级的
+- dom中有很多元素，div span h p 等等
+- 查找元素：document.getElementsByTagName()当你的程序中只有div
+没有分类元素时，可以用tag，先把所有元素获得，然后选择第一个（0），加上const定义常量，即可查找到所招元素，并成为元素更新增加的基础
+- document.getElementsByClassName() class是分类名称，class=“ ” 查找时可以先获得所有class中的这个名称的元素，与上述过程一样
+- 还可以直接在程序总直接写console.log就是在Google中输入检查的
+- 更新，ele.innerText button 后有update
