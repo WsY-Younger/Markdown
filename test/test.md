@@ -268,3 +268,16 @@ __我__
 - alert会自动蹦出来哦
 - 变量字母开头要小写 尽量
 - 每个变量最好都此声明一下，var，不会出错
+- 判断开始时是不是undefined 若是可以用||‘’ 这样的字符连接起来
+- 竖直中心line-height 行内中心 inline-blocks 这些都是针对数字运算符来说的，因此需写明text-align:
+- if(括号中的是已输过的字符){针对下一个输入对象做出的程序}
+- 一个等号是赋值，两个等号判断值是否相等 三个灯号判断值和类型是否相等
+- ||或运算  &&与运算 ！非运算 布尔值的相关符号 用于条件判断中
+- `反引号是一种模板字符串` 他可以是字符串连接起来，不需要''+''的形式
+- 但需要用$ $这个符号链接
+- `你好, ${name},你今年${age}岁了！`就是一串句子了
+- null是空的意思
+- [JS语句中的null和undefinited](https://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html)
+- [JS语句应用](https://www.liaoxuefeng.com/wiki/1022910821149312)
+- [JS菜鸟教程也要看看](https://www.runoob.com/js/js-tutorial.html)
+- [块级元素 行内元素](https://www.jeffjade.com/2015/06/24/2015-06-24-css-block-inline/)
