@@ -275,9 +275,56 @@ __我__
 - ||或运算  &&与运算 ！非运算 布尔值的相关符号 用于条件判断中
 - `反引号是一种模板字符串` 他可以是字符串连接起来，不需要''+''的形式
 - 但需要用$ $这个符号链接
-- `你好, ${name},你今年${age}岁了！`就是一串句子了
+- `你好, ${name},你今年${age}岁了！`就是一串句子了 ${}都是变量，定量都可以直接 写上去
 - null是空的意思
 - [JS语句中的null和undefinited](https://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html)
 - [JS语句应用](https://www.liaoxuefeng.com/wiki/1022910821149312)
 - [JS菜鸟教程也要看看](https://www.runoob.com/js/js-tutorial.html)
 - [块级元素 行内元素](https://www.jeffjade.com/2015/06/24/2015-06-24-css-block-inline/)
+- function buttonclick 只能用一次 若出现用两次的情况需要将覆盖的内容重新逻辑一下
+- 改为空字符，input .value =''ok
+- eval 可以简便运算 简化程序，比如计算器中的input内容和result 可以做混合运算
+- eval执行JS程序 eval是计算的
+
+### Second Learning
+ - [CSS布局设计](https://zh.learnlayout.com/)
+ - display的值  block inline 分别是块级元素和行内元素 块级是不分行的用div 行内元素用span分行
+ - 其他常用的块级元素包括 p 、 form 和HTML5中的新元素： header 、 footer 、 section 等等。
+ - display:none 通常被 JavaScript 用来在不删除元素的情况下隐藏或显示元素。
+ - none不占他原来显示的空间
+ - 设置块级元素的 width 可以防止它从左到右撑满整个容器。然后你就可以设置左右外边距为 auto 来使其水平居中。
+ - 这种情况下使用 max-width 替代 width 可以使浏览器更好地处理小窗口的情况。 这种情况是什么呢：其实就是如果窗口较小的话，宽度会撑不下，会设置滚动条，没错会很不方便
+ - fancy 比传统的盒子模型多了两个padding border 保证比传统的盒子模型 宽度大
+ - 而在传统的盒子模型中可以添加两个元素 box-sizing: border-box 传统的盒子模型simple 可出现那个宽度
+ - 页面上所有的元素 可以写这些代码来完成
+ {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+- position为了保证可以满足更多的布局 ：
+- static 任意 position: static; 的元素不会被特殊的定位。一个 static 元素表示它不会被“positioned”，一个 position 属性被设置为其他值的元素表示它会被“positioned”。
+- relative 相关性位置 需要你手动加上属性才可以
+ 基本就需要两个，一个是作为参照物完成，一个是参考的另一元素的相对位子
+- fixed 一个固定定位 无论该页面怎样滚动，，位置不会改变，比如那些广告的位置
+- absolute 是最棘手的position值。 absolute 与 fixed 的表现类似，但是它不是相对于视窗而是相对于最近的“positioned”祖先元素。如果绝对定位（position属性的值为absolute）的元素没有“positioned”祖先元素，那么它是相对于文档的 body 元素，并且它会随着页面滚动而移动，一个个“positioned”元素是指 position 值不是 static 的元素。也就是说absolute的值是不会在自己所在的那个position中改变位置的，他的页面是哪个position  父元素定位
+- footer页脚 section 栏目 body正文
+- float 用于设置图片和文字的格式布局，这用来环绕 float: right;右环绕
+- clear 是漂浮框效果  clearfix 清楚漂浮效果 after-box 在盒子后漂浮
+- 百分比宽度 min-width
+- 响应式查询 媒体查询 类似于链接吧
+- @ media screen and (min-width:600px) 示例写下
+- 一些盒子的漂浮 是块级的 通过box2 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+} 可以改为行内的
+- 并且不需要写after- box 来使窗口漂浮在下面了，可以直接 就漂浮到下面了
+- vertical-align 属性会影响到 inline-block 元素，你可能会把它的值设置为 top 。
+- 你需要设置每一列的宽度
+- 如果HTML源代码中元素之间有空格，那么列与列之间会产生空隙
+- colunm 用法？
+- flexbox 用flex对box做些布局 牛逼布局全程都是flex 我觉得flex是一种比例，每种小盒子所占大盒子的比例就ok
+- flex的剧中布局
+- 666
